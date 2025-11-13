@@ -1,0 +1,19 @@
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
+    - when: never
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - mv .env.local .env && docker build -t furni-decor-web:$CI_COMMIT_SHORT_SHA .
+
+deploy:
+  stage: deploy
+  script:
+    - export FRONTEND_TAG="$CI_COMMIT_SHORT_SHA" && cd /home/gitlab-runner/furnidecor && ./deploy.sh --frontend --frontend-tag $FRONTEND_TAG
