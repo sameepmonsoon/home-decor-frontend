@@ -338,7 +338,7 @@ const UserAccount = () => {
   const userName = isAuthneticated ? session?.data.user.fullName : 'Sign In';
   if (isAuthneticated) {
     return (
-      <div className='flex items-center gap-2.5'>
+      <Link href={'/my-account'} className='flex items-center gap-2.5'>
         <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <path
             fillRule='evenodd'
@@ -358,7 +358,7 @@ const UserAccount = () => {
           <span className='block text-2xs text-dark-4 uppercase'>account</span>
           <p className='font-medium text-custom-sm text-dark max-w-20 line-clamp-1'>{userName}</p>
         </div>
-      </div>
+      </Link>
     );
   }
   return (

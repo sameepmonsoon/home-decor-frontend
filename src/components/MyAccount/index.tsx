@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import { signOut } from 'next-auth/react';
 import React, { useState } from 'react';
 
 import Breadcrumb from '../Common/Breadcrumb';
@@ -244,9 +245,9 @@ const MyAccount = () => {
             >
               <p className='text-dark'>
                 Hello Annie (not Annie?
-                <a href='#' className='text-red ease-out duration-200 hover:underline'>
+                <button onClick={() => signOut()} className='text-red ease-out duration-200 hover:underline'>
                   Log Out
-                </a>
+                </button>
                 )
               </p>
 
