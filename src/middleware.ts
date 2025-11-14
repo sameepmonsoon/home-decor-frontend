@@ -27,19 +27,13 @@ export async function middleware(request: NextRequest) {
   }
 
   // If trying to access any other restricted paths without being logged in
-  // if (!authToken && pathname.startsWith('/my-account')) {
-  //   const signInUrl = new URL('/sign-in', request.url);
-  //   signInUrl.searchParams.set('callbackUrl', pathname);
-  //   return NextResponse.redirect(signInUrl);
-  // }
+  if (!authToken && pathname.startsWith('/my-account')) {
+    const signInUrl = new URL('/sign-in', request.url);
+    signInUrl.searchParams.set('callbackUrl', pathname);
+    return NextResponse.redirect(signInUrl);
+  }
 }
 
 export const config = {
-  matcher: [
-    '/sign-in',
-    '/register',
-    '/my-account/:path*',
-    '/verify-email',
-    '/verify-email',
-  ],
+  matcher: ['/sign-in', '/register', '/my-account/:path*', '/verify-email', '/verify-email'],
 };

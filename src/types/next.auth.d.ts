@@ -10,6 +10,7 @@ declare module 'next-auth' {
       verified: boolean;
       email: string;
       firstName: string;
+      fullName: string;
       lastName: string;
       accessExpireTime: number;
       picture: {
@@ -29,6 +30,7 @@ declare module 'next-auth' {
     verified: boolean;
     email: string;
     firstName: string;
+    fullName: string;
     lastName: string;
     accessExpireTime: number;
     picture: {
