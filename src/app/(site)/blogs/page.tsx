@@ -3,7 +3,7 @@ import React from 'react';
 
 import BlogGridWithSidebar from '@/components/BlogGridWithSidebar';
 export const metadata: Metadata = {
-  title: 'Blog Grid Page | HomerDecor Nextjs E-commerce template',
+  title: 'Blog Grid Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Blog Grid Page for HomerDecor Template',
   // other metadata
 };

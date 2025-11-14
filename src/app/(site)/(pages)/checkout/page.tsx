@@ -3,7 +3,7 @@ import React from 'react';
 
 import Checkout from '@/components/Checkout';
 export const metadata: Metadata = {
-  title: 'Checkout Page | HomerDecor Nextjs E-commerce template',
+  title: 'Checkout Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Checkout Page for HomerDecor Template',
   // other metadata
 };

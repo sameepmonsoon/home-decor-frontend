@@ -4,7 +4,7 @@ import React from 'react';
 import ShopDetails from '@/components/ShopDetails';
 
 export const metadata: Metadata = {
-  title: 'Shop Details Page | HomerDecor Nextjs E-commerce template',
+  title: 'Shop Details Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Shop Details Page for HomerDecor Template',
   // other metadata
 };

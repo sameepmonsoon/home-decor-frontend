@@ -3,7 +3,7 @@ import React from 'react';
 
 import Cart from '@/components/Cart';
 export const metadata: Metadata = {
-  title: 'Cart Page | HomerDecor Nextjs E-commerce template',
+  title: 'Cart Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Cart Page for HomerDecor Template',
   // other metadata
 };

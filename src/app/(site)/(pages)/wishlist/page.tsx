@@ -4,7 +4,7 @@ import React from 'react';
 import { Wishlist } from '@/components/Wishlist';
 
 export const metadata: Metadata = {
-  title: 'Wishlist Page | HomerDecor Nextjs E-commerce template',
+  title: 'Wishlist Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Wishlist Page for HomerDecor Template',
   // other metadata
 };
