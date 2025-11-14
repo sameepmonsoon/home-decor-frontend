@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 import Contact from '@/components/Contact';
 export const metadata: Metadata = {
-  title: 'Contact Page | HomerDecor Nextjs E-commerce template',
+  title: 'Contact Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Contact Page for HomerDecor Template',
   // other metadata
 };

@@ -3,7 +3,7 @@ import React from 'react';
 
 import MailSuccess from '@/components/MailSuccess';
 export const metadata: Metadata = {
-  title: 'Mail Success Page | HomerDecor Nextjs E-commerce template',
+  title: 'Mail Success Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Mail Success Page for HomerDecor Template',
   // other metadata
 };

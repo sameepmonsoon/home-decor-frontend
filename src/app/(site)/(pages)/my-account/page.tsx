@@ -3,7 +3,7 @@ import React from 'react';
 
 import MyAccount from '@/components/MyAccount';
 export const metadata: Metadata = {
-  title: 'My Account | HomerDecor Nextjs E-commerce template',
+  title: 'My Account | HomerDecor Your Online Furniture Destination',
   description: 'This is My Account page for HomerDecor Template',
   // other metadata
 };

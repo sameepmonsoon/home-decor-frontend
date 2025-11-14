@@ -3,7 +3,7 @@ import React from 'react';
 
 import Signin from '@/components/Auth/Signin';
 export const metadata: Metadata = {
-  title: 'Signin Page | HomerDecor Nextjs E-commerce template',
+  title: 'Signin Page | HomerDecor Your Online Furniture Destination',
   description: 'This is Signin Page for HomerDecor Template',
   // other metadata
 };
